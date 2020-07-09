@@ -39,7 +39,7 @@ function init(dist) {
 			`
         ${dist} is creating...
         `));
-		Git.Clone("https://github.com/khanhtran/react-n-page", dist).then(() => {
+		Git.Clone("https://github.com/trkhanh/react-n-page", dist).then(() => {
 			fs.removeSync(path.resolve(dist, ".git"));
 			fs.removeSync(path.resolve(dist, "_config.yml"));
 			fs.removeSync(path.resolve(dist, "README.md"));

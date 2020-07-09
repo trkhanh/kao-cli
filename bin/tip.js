@@ -14,7 +14,7 @@ const chalk = require("chalk");
 function help(version) {
   console.log(chalk.blueBright(`
     kao-cli: ${version}
-    Usage: https://github.com/khanhtran/react-n-page
+    Usage: https://github.com/trkhanh/react-n-page
 
     options:
     [init] [name]       create a new blog template
