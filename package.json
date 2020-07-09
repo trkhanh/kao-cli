@@ -1,0 +1,31 @@
+{
+  "name": "kao-cli",
+  "version": "1.3.0",
+  "description": "cli of install react-n-page",
+  "main": "./bin/index.js",
+  "bin": {
+    "kao": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "multi",
+    "javascript",
+    "multipage",
+    "frontend",
+    "js",
+    "es6",
+    "bin",
+    "cli",
+    "khanhtran"
+  ],
+  "author": "khanhtran",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "nodegit": "^0.23.0"
+  }
+}
