@@ -15,6 +15,10 @@ const chalk = require("chalk");
 const tip = require("./tip");
 const Git = require("nodegit");
 const argv = process.argv;
+
+var program = require('commander')
+var spawn = require('cross-spawn');
+
 let packageJson = {};
 
 try {
